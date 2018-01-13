@@ -1,8 +1,8 @@
-package de.htwg.scalala.music
+import akka.actor._
+import de.htwg.scalala.music._
+import de.htwg.scalala.players._
 
 import scala.language.postfixOps
-import de.htwg.scalala.players._
-import akka.actor._
 
 object Quartett {
 

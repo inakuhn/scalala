@@ -1,10 +1,10 @@
 package de.htwg.scalala.music
 
-import org.scalatest.WordSpec
-import org.scalatest.Matchers
-import scala.language.postfixOps
 import org.junit.runner.RunWith
+import org.scalatest.{Matchers, WordSpec}
 import org.scalatest.junit.JUnitRunner
+
+import scala.language.postfixOps
 
 @RunWith(classOf[JUnitRunner])
 class MusicSeqSpec extends WordSpec with Matchers {

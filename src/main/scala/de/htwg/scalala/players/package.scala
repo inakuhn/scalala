@@ -1,7 +1,7 @@
 package de.htwg.scalala
 
-import de.htwg.scalala.music._
 import akka.actor._
+import de.htwg.scalala.music._
 
 package object players {
   val system = ActorSystem("Orchestra")

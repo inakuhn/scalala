@@ -1,10 +1,10 @@
 package de.htwg.scalala.music
 
-import org.scalatest.WordSpec
-import org.scalatest.Matchers
-import scala.language.postfixOps
 import org.junit.runner.RunWith
+import org.scalatest.{Matchers, WordSpec}
 import org.scalatest.junit.JUnitRunner
+
+import scala.language.postfixOps
 
 @RunWith(classOf[JUnitRunner])
 class KeySpec extends WordSpec with Matchers {
@@ -27,7 +27,7 @@ class KeySpec extends WordSpec with Matchers {
       c1 should be(Key(60, ticks = 16))
       c2 should be(Key(60, ticks = 8))
       c4 should be(Key(60, ticks = 4))
-      c8 should be(Key(60, ticks = 8))
+      c8 should be(Key(60, ticks = 2))
       c16 should be(Key(60, ticks = 16))
     }
     "should be equal if key and time are equal" in {
