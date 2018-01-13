@@ -43,4 +43,7 @@ project/.sbtserver
 .sonar/
 
 # Application
-yourgame.log
+*.log
+*.iml
+#ignore generated folder
+project/
